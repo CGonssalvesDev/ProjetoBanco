@@ -35,17 +35,17 @@ public class Clientes {
 		System.out.print("Digite um valor para deposito: ");
 		double valorDeposito = sc.nextDouble();
 		conta.deposita(valorDeposito);
-		System.err.println();
+		System.out.println();
 		System.out.println("Conta com o novo saldo: ");
-		System.err.println(conta);
+		System.out.println(conta);
 		
 		System.out.println();
 		System.out.print("Digite um valor para saque: ");
 		double valorSaque = sc.nextDouble();
 		conta.saca(valorSaque);
-		System.err.println();
+		System.out.println();
 		System.out.println("Conta com o novo saldo: ");
-		System.err.println(conta);
+		System.out.println(conta);
 		
 		sc.close();
 	}

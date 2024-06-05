@@ -8,7 +8,6 @@ public class Cadastro {
 	
 	
 	public Cadastro(String nomeDoCliente, int numeroDaConta) {
-		super();
 		this.nomeDoCliente = nomeDoCliente;
 		this.numeroDaConta = numeroDaConta;
 	}
